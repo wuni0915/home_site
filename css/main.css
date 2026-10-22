@@ -1,0 +1,25 @@
+.banner {
+  padding: 10% 0;
+}
+.banner h1 {
+  font-size: 40px;
+  font-weight: 800;
+}
+.banner p {
+  color: #8a8a8a;
+}
+/* filter-bar */
+.filter-bar {
+  display: flex;
+}
+/* home wrap */
+
+.home-wrap {
+}
+.sort-box {
+}
+
+.home-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
