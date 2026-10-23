@@ -1,17 +1,21 @@
 #goTop {
-    position: fixed;
-    bottom: 30px;
-    right: 50px;
-    border: 0;
-    border-radius: 50%;
-    aspect-ratio: 1/1;
-    /* width or height를 안줘도 되는구나 */
-    background-color: #333;
-    color: #fff;
-    padding: 10px;
-    /* display: none; */
-    cursor: pointer;
-    z-index: 10;
+  position: fixed;
+  bottom: 3%;
+  right: 5%;
+  border: 0;
+  border-radius: 50%;
+  aspect-ratio: 1/1;
+  /* width or height를 안줘도 되는구나 */
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  display: none;
+  cursor: pointer;
+  z-index: 10;
+}
+#goTop.active {
+  display: block;
+
 }
 
 main {
@@ -200,7 +204,7 @@ option {
   width: 100%;
   display: flex;
   justify-content: center;
-  padding: 100px 0;
+  padding: 7% 0;
 }
 .btn {
   background-color: orange;
