@@ -14,10 +14,13 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <script src="js/scroll.js"></script>
   </head>
   <body>
-    <div class="inner">
-      <header>
+         <button id="goTop">Top</button>
+    <header>
+      <div class="inner">
         <div class="logo"><a href="#" class="logo">ZUNO</a></div>
         <nav class="nav">
           <a href="">HOME</a>
@@ -29,8 +32,8 @@
           <a href="">Sign up</a>
           <a href="">Log in</a>
         </div>
-      </header>
-    </div>
+      </div>
+    </header>
     <!-- main -->
     <main>
       <div class="inner">
@@ -42,21 +45,46 @@
           </p>
         </div>
         <section class="filter-bar">
-          <div class="bar-1">
-            <label>LOOKING FOR</label>
-            <input type="text" id="looking-for" value="Residence in Texas" />
+          <div class="bar-left">
+            <div class="bar">
+              <label>LOOKING FOR</label>
+              <input type="text" id="looking-for" value="Residence in Texas" />
+            </div>
+            <div class="bar">
+              <label for="">TYPE</label>
+              <select name="" id="">
+                <option value="">Residence</option>
+                <option value="">Commercial</option>
+                <option value="">Industrial</option>
+                <option value="">Land / Plot</option>
+              </select>
+            </div>
+            <div class="bar">
+              <label for="">PRICE</label>
+              <select name="" id="">
+                <option value="">$1,000-$50,000</option>
+                <option value="">$50,000-$100,000</option>
+                <option value="">$100,000-</option>
+              </select>
+            </div>
+            <div class="bar">
+              <label for="">Location</label>
+              <select name="" id="">
+                <option value="">United State</option>
+                <option value="">New York</option>
+                <option value="">Los Angeles</option>
+                <option value="">London</option>
+              </select>
+            </div>
           </div>
-          <div class="bar-1">
-            <p>LOOKING FOR</p>
-            <p>Residence in Texas</p>
-          </div>
-          <div class="bar-1">
-            <p>LOOKING FOR</p>
-            <p>Residence in Texas</p>
-          </div>
-          <div class="bar-1">
-            <p>LOOKING FOR</p>
-            <p>Residence in Texas</p>
+          <div class="bar-right">
+            <div class="bar">
+              <label for="">FIND SPECIFIC PROPERTY</label>
+              <input type="text" placeholder="Ex.A'doms Apartment" />
+            </div>
+            <div class="bar-1">
+              <i class="fa-solid fa-sliders"></i>
+            </div>
           </div>
         </section>
         <!-- found -->
@@ -65,7 +93,7 @@
             <h2>1024 RESULTS FOUND</h2>
             <div class="sort-box">
               <label for="sort-select">Sort by:</label>
-              <select id="sort-select">
+              <select id="sort-select" class="sort-select">
                 <option value="newest">Newest</option>
                 <option value="oldest">Oldest</option>
                 <option value="price-low">Price: Low to High</option>
