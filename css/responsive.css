@@ -36,9 +36,7 @@
   }
 }
 @media (max-width: 390px) {
-  .home-content {
-    grid-template-columns: repeat(1, minmax(100px, 1fr));
-  }
+  
   html {
     font-size: 12px;
   }
