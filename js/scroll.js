@@ -6,7 +6,7 @@ window.addEventListener("scroll", ()=>{
     // console.log(sections, dots);
     console.log(document.documentElement.scrollTop);
     // 제일 높은곳 = 0 기준, 원하는 높이 확인 가능
-    if(document.documentElement.scrollTop > 600){
+    if(document.documentElement.scrollTop > 400){
         gotopBtn.classList.add("active")
         // 콘솔에서 위치숫자가 600보다 클때
     }else {
